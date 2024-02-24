@@ -1,0 +1,113 @@
+/* PC: >= 1024px */
+@media (min-width: 64em) {
+}
+
+/* Tablet & Mobile < 1024px*/
+@media (max-width: 63.9375em) {
+  .btn {
+    padding: 16px;
+  }
+
+  #nav .subnav a {
+    padding: 12px;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+
+  .contact-form .form-control {
+    padding: 0 3px 15px;
+    font-size: 16px;
+  }
+
+  .contact-form .form-control input {
+    font-size: 18px;
+  }
+
+  .contact-form .form-control label {
+    top: 38%;
+  }
+
+  .contact-form .form-control input:focus + label,
+  .contact-form .form-control input:valid + label {
+    top: -2px;
+    left: 9px;
+  }
+
+  #footer .socials-list,
+  #footer .socials-list a {
+    font-size: 40px;
+    margin: 2px;
+  }
+}
+
+/* Tablet: >= 740px & < 1024px */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+/* Mobile: < 740px */
+@media (max-width: 46.1875em) {
+  .s-col-full,
+  .btn {
+    width: 100% !important;
+  }
+
+  .s-mt-4 {
+    margin-top: 4px !important;
+  }
+
+  .s-mt-16 {
+    margin-top: 16px !important;
+  }
+
+  .btn:hover {
+    transform: scale(1.04, 1.1);
+    font-weight: bold;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav li a {
+    padding: 2px 24px;
+  }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 0 42px;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  #content .member-img {
+    width: 60%;
+  }
+
+  .contact-form {
+    margin-top: 32px;
+  }
+}
